@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration Form</title>
+	<style>
+		form {
+			width: 50%;
+		}
+		label {
+			font-weight: bold;
+		}
+		input[type="text"], input[type="email"], input[type="tel"], textarea {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 10px;
+			font-size: 16px;
+
+		}
+
+
+	</style>
+</head>
+<body>
+	<h1>Student Registration Form</h1>
+	<form method="post" action="">
+		<label for="name">Student Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="father_name">Father Name:</label>
+		<input type="text" id="father_name" name="father_name" required>
+
+		<label for="mother_name">Mother Name:</label>
+		<input type="text" id="mother_name" name="mother_name" required>
+
+		<label for="address">Address:</label>
+		<textarea id="address" name="address" rows="3" required></textarea>
+
+		<label for="email">E-mail:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="mobile">Mobile Number:</label>
+		<input type="tel" id="mobile" name="mobile" required>
+
+		<label for="marks_10th">Marks - 10th:</label>
+		<input type="number" id="marks_10th" name="marks_10th" required>
+
+		<label for="marks_12th">Marks - 12th:</label>
+		<input type="number" id="marks_12th" name="marks_12th" required>
+
+    <label for="Gender">Gender :</label>
+		<input type="text" id="gender" name="gender" required>
+
+    <label for="dob">Date of birth</label>
+  	<input type="date" id="dob" name="dob" required>
+
+    <label for="hobbies">Hobbies :</label>
+    <input type="text" id="hobbies" name="hobbies" required>
+
+    <label for="achieve">Achievements :</label>
+    <input type="text" id="achievements" name="achievements" required>
+
+    <label for="declaration">Declaration :</label>
+    <input type="text" id="declaration" name="declaration" required>
+		<input type="submit" value="Submit">
+    </form>
+
+</body>
